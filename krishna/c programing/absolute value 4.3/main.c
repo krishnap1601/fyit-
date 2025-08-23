@@ -5,10 +5,11 @@ int main(){
     double x;
 
     printf("enter a number: ");
-    scanf("%1f", &x);
+    scanf("%lf", &x);
 
-    printf("square root = %.21f\n", sqrt(x));
-    printf("absolute value = %.21f\n", fabs(x));
+    printf("square root = %.2lf\n", sqrt(x));
+    printf("absolute value = %.2lf\n", fabs(x));
 
     return 0;
 }
+
